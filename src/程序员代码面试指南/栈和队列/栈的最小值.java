@@ -70,7 +70,7 @@ public class 栈的最小值 {
             if (mStack.isEmpty()) {
                 mStack.push(x);
             } else {
-                if(mStack.peek()>=x){
+                if (mStack.peek() >= x) {
                     mStack.push(x);
                 }
             }
