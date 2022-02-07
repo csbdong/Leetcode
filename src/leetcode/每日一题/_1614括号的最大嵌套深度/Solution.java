@@ -1,4 +1,4 @@
-package leetcode.每日一题.括号的最大嵌套深度1614;
+package leetcode.每日一题._1614括号的最大嵌套深度;
 
 public class Solution {
     public int maxDepth(String s) {

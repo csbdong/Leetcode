@@ -1,4 +1,4 @@
-package leetcode.每日一题.黄金矿工1219;
+package leetcode.每日一题._1219黄金矿工;
 
 public class Solution {
     int[][] dir = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};

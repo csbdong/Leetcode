@@ -1,4 +1,4 @@
-package leetcode.每日一题.按键持续时间最长的键1629;
+package leetcode.每日一题._1629按键持续时间最长的键;
 
 public class Solution {
     public char slowestKey(int[] releaseTimes, String keysPressed) {

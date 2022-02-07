@@ -1,4 +1,4 @@
-package leetcode.每日一题.替换所有的问号1576;
+package leetcode.每日一题._1576替换所有的问号;
 
 public class Solution {
     /** 思路一致 写法不优雅

@@ -1,4 +1,4 @@
-package leetcode.每日一题.找到字符串中所有字母异位词438;
+package leetcode.每日一题._438找到字符串中所有字母异位词;
 
 import java.util.ArrayList;
 import java.util.Arrays;
