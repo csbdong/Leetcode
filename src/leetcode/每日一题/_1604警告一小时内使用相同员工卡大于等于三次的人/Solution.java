@@ -18,6 +18,7 @@ public class Solution {
         for (Map.Entry<String, List<String>> entrySet : nameTimeMap.entrySet()) {
             String name = entrySet.getKey();
             List<String> times = entrySet.getValue();
+            Collections.sort(times);
             if (match(times)) {
                 result.add(name);
             }
