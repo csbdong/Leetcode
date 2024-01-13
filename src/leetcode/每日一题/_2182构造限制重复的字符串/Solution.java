@@ -2,7 +2,6 @@ package leetcode.每日一题._2182构造限制重复的字符串;
 
 public class Solution {
     public String repeatLimitedString(String s, int repeatLimit) {
-        public String repeatLimitedString(String s, int repeatLimit) {
             int[] nums = new int[26];
             for (char c : s.toCharArray()) {
                 nums[c - 'a']++;
