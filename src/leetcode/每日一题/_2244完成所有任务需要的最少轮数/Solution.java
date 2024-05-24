@@ -14,7 +14,7 @@ public class Solution {
         int sum = 0;
         while (it.hasNext()) {
             Map.Entry<Integer, Integer> entry = it.next();
-            int curValue = entey.getValue();
+            int curValue = entry.getValue();
             while (curValue != 0) {
                 if (curValue == 1) {
                     return -1;
