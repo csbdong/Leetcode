@@ -41,6 +41,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+        //case
         ListNode first = new ListNode(1);
         ListNode f_1 = new ListNode(4);
         ListNode f_2 = new ListNode(5);
