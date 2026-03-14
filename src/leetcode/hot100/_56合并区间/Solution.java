@@ -1,14 +1,12 @@
 package leetcode.hot100._56合并区间;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class Solution {
 
     public int[][] merge(int[][] intervals) {
         if (intervals.length == 1) {
+            StringBuilder sb;
             return intervals;
         }
         Arrays.sort(intervals, new Comparator<int[]>() {
@@ -41,7 +39,7 @@ public class Solution {
 
     }
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         int[][] src=new int[][]{{1,4},{0,4}};
         new Solution().merge(src);
     }
